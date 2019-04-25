@@ -1,0 +1,44 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="fragments.FahrenheitFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <EditText
+        android:id="@+id/etcel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Celsius"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:inputType="number"/>
+
+    <Button
+        android:id="@+id/btnfah"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Convert into Fahrenheit"
+        android:layout_margin="10dp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Result"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:layout_margin="10dp"/>
+
+    <EditText
+        android:id="@+id/etrlt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        android:gravity="center"/>
+
+</LinearLayout>
